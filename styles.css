@@ -1,3 +1,6 @@
+
+/* Typography */
+
 @font-face {
   font-family: 'ppmori';
   src: url('fonts/PPMori-Regular.woff2') format('woff2'),
@@ -42,4 +45,12 @@ a:hover {
   padding: 12px 20px;
   border: 1px solid #000;
   border-radius: 4px;
+}
+
+/* Layout */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
 }
