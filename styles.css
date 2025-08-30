@@ -7,6 +7,15 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'ppmori';
+  src: url('fonts/PPMori-SemiBold.woff2') format('woff2'),
+       url('fonts/PPMori-SemiBold.woff') format('woff'),
+       url('fonts/PPMori-SemiBold.ttf') format('truetype');
+  font-weight: Bold;
+  font-style: normal;
+}
+
 body {
   font-family: ppmori;
 }
