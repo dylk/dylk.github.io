@@ -1,4 +1,12 @@
-p {
-  font-family: sans-serif;
-  color: red;
+@font-face {
+  font-family: 'ppmori';
+  src: url('fonts/PPMori-Regular.woff2') format('woff2'),
+       url('fonts/PPMori-Regular.woff') format('woff'),
+       url('fonts/PPMori-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: ppmori;
 }
